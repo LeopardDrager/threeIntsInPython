@@ -23,14 +23,14 @@ elif b > a and b > c and c > a:
   print("The biggest number is " + str(b))
 
 elif c > a and c > b and a > b:
-  print("The smallest number is " + str(c))
+  print("The smallest number is " + str(b))
   print("The second smallest number is " + str(a))
-  print("The biggest number is " + str(b))
+  print("The biggest number is " + str(c))
 
 elif c > a and c > b and b > a:
-  print("The smallest number is " + str(c))
-  print("The second smallest number is " + str(a))
-  print("The biggest number is " + str(b))
+  print("The smallest number is " + str(a))
+  print("The second smallest number is " + str(b))
+  print("The biggest number is " + str(c))
 
 elif b == a or b == c or a == c: #preventing from trying to break
   print("You can't do that! Try again")
